@@ -1,5 +1,5 @@
 <?php
-    $to = "morshed08@gmail.com";
+    $to = "poornaj.kanchan@protonmail.com";
     $from = $_REQUEST['name'];
     $headers = "Content-type: text/html;From: $from";
 
@@ -14,4 +14,3 @@
     $body .= 'Message : '.$fields['message']. '<br>';
 
     $send = mail($to, $body, $headers);
-
